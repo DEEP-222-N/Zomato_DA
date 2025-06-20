@@ -8,7 +8,7 @@ This project analyzes Zomato food delivery data to uncover insights into custome
 
 The dashboard allows stakeholders to explore key metrics across locations, cuisines, delivery performance, and user preferences.
 
-Key highlights:
+**Key highlights**:
 
 Cleaned and standardized raw data using Python (Pandas) in Google Colab before SQL querying
 
@@ -24,7 +24,7 @@ Explored reasons for order cancellations using categorized data fields
 
 Built a user-friendly, filterable Power BI dashboard with dynamic visualizations
 
-Tech stack:
+**Tech stack**:
 
 Google Colab (Python, Pandas) for data cleaning and preprocessing
 
