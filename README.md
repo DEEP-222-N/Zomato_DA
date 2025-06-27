@@ -1,37 +1,63 @@
-# Zomato_DA
+# 🍽️ Zomato Data Analytics Dashboard
 
-Power BI Link:
+**📊 Power BI Dashboard:** [Click to View](https://app.powerbi.com/view?r=eyJrIjoiMjdiYzZiOWUtMmZhYy00Y2ZmLWI2ODUtMDc1MmFkY2JlOTA3IiwidCI6ImQxZjE0MzQ4LWYxYjUtNGEwOS1hYzk5LTdlYmYyMTNjYmM4MSIsImMiOjEwfQ%3D%3D)
 
-https://app.powerbi.com/view?r=eyJrIjoiMjdiYzZiOWUtMmZhYy00Y2ZmLWI2ODUtMDc1MmFkY2JlOTA3IiwidCI6ImQxZjE0MzQ4LWYxYjUtNGEwOS1hYzk5LTdlYmYyMTNjYmM4MSIsImMiOjEwfQ%3D%3D
+---
 
-This project analyzes Zomato food delivery data to uncover insights into customer behavior, operational efficiency, and ordering trends. The raw dataset was first cleaned and preprocessed using Python in Google Colab before being loaded into a SQL database for further analysis. An interactive Power BI dashboard was then built to visualize the findings.
+## 📌 Project Overview
 
-The dashboard allows stakeholders to explore key metrics across locations, cuisines, delivery performance, and user preferences.
+This project focuses on analyzing **Zomato's food delivery data** to extract insights into:
 
-**Key highlights**:
+- Customer ordering behavior  
+- Operational performance  
+- Popular cuisines  
+- Delivery efficiency  
+- Order cancellations  
 
-Cleaned and standardized raw data using Python (Pandas) in Google Colab before SQL querying
+The analysis pipeline starts with **data cleaning and preprocessing using Python in Google Colab**, continues with **SQL-based transformation and aggregation**, and ends with an **interactive Power BI dashboard** that enables users to explore insights via dynamic filters and visuals.
 
-Performed data extraction and transformation using SQL to prepare the dataset for visualization
+---
 
-Analyzed customer behavior, including top-ordering cities, peak hours, and preferred cuisines
+## 🚀 Key Insights
 
-Tracked delivery performance using KPIs like average delivery time, delays, and cancellation rates
+- 📍 **Top Ordering Cities** and high-activity locations  
+- 🕒 **Peak Ordering Hours** for customer demand trends  
+- 🍛 **Most Preferred Cuisines** based on order volume and satisfaction  
+- 🚚 **Delivery KPIs** like average delivery time, delay frequency, and cancellation rates  
+- 📉 **Cancellation Analysis** with reasons breakdown  
+- 📈 Filterable dashboard showing trends by location, cuisine, and time
 
-Identified top cuisines based on order count and customer satisfaction
+---
 
-Explored reasons for order cancellations using categorized data fields
+## 🔧 Tech Stack
 
-Built a user-friendly, filterable Power BI dashboard with dynamic visualizations
+- **Python (Pandas)** – Data cleaning & preprocessing in Google Colab  
+- **SQL (MySQL/PostgreSQL)** – Data extraction, joins, filtering & transformation  
+- **Power BI** – Visualization and interactive dashboard creation  
+- **DAX** – Custom KPIs, metrics, and calculations  
+- **Power Query** – Data import and shaping from SQL
 
-**Tech stack**:
+---
 
-Google Colab (Python, Pandas) for data cleaning and preprocessing
+## 🧪 Workflow Summary
 
-SQL (MySQL/PostgreSQL) for querying and transformation
+1. **Raw Data Cleaning**  
+   - Removed null values, standardized columns, corrected datatypes using Pandas.
 
-Power BI for dashboard creation and data modeling
+2. **SQL Transformation**  
+   - Connected the cleaned data to a SQL engine for grouping, joins, filtering, and aggregation.
 
-DAX for calculated fields and KPI visualizations
+3. **Power BI Dashboard**  
+   - Imported processed data into Power BI  
+   - Built dynamic visuals for delivery metrics, customer behavior, and cancellation reasons  
+   - Used DAX for calculated KPIs like Average Delivery Time and Order Frequency by Cuisine  
 
-Power Query for data import and shaping
+---
+
+## 📊 Sample Dashboard Features
+
+- 🌆 **Top Cities** with highest order volume  
+- ⏰ **Hourly Heatmap** of order frequency  
+- 🥘 **Top 10 Cuisines** by popularity and ratings  
+- 🚫 **Cancellation Breakdown** by reason and location  
+- ⏱️ **Avg Delivery Time** vs **Delay Count** chart  
